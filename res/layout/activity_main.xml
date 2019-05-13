@@ -1,1 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
 
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LightSlateGray">
+
+    <Button
+        android:id="@+id/Play"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/Button1"
+        android:textColor="@color/OrangeRed"
+        android:textSize="30sp" />
+
+
+    <LinearLayout
+
+        android:id="@+id/Adjust"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Down"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:text="@string/Down"
+            android:textColor="@color/Blue"
+            android:textSize="20sp" />
+
+        <ProgressBar
+            android:id="@+id/Volume"
+            style="@android:style/Widget.Holo.ProgressBar.Horizontal"
+            android:layout_width="660dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/currentvolume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/currentVolume"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/up"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:text="@string/Up"
+            android:textColor="@color/Blue"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/playing"
+        android:textColor="@color/OrangeRed"
+        android:textSize="40sp"/>
+
+</LinearLayout>
