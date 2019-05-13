@@ -2,3 +2,11 @@
 ## 参考
 音量调节： http://www.jizhuomi.com/android/example/218.html  
 浏览文件系统： https://blog.csdn.net/bzlj2912009596/article/details/80994628
+## 电视截图
+### 主页面：  
+![]()  
+### 浏览文件：  
+![]()
+### 播放：
+![]()
+
