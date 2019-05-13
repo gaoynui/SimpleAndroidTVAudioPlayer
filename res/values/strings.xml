@@ -1,1 +1,14 @@
+<resources>
+    <string name="app_name">MyAndroidTVAudioTest</string>
+    <string name="module_1">module_1</string>
+    <string name="Play">Play</string>
+    <string name="Down">Down</string>
+    <string name="Up">Up</string>
+    <string name="Progress">Adjust</string>
+    <string name="Introduction">Adjust the volume</string>
+    <string name="Button1">播放音乐</string>
+    <string name="search">search</string>
+    <string name="playing">playing\n</string>
+    <string name="currentVolume">音量</string>
+</resources>
 
